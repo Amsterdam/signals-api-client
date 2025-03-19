@@ -7,8 +7,9 @@ README.md
 docs/AbridgedChildSignal.md
 docs/ActiveTermsFacet.md
 docs/Area.md
+docs/AreaCreate.md
+docs/AreaCreateGeometry.md
 docs/AreaGeo.md
-docs/AreaGeoGeometry.md
 docs/AreaGeoProperties.md
 docs/AreaType.md
 docs/BlankEnum.md
@@ -78,12 +79,14 @@ docs/NestedStatusModel.md
 docs/NestedStatusModelState.md
 docs/NestedStatusModelTargetApi.md
 docs/NestedTypeModel.md
+docs/NullEnum.md
 docs/PaginatedAbridgedChildSignalList.md
 docs/PaginatedAbridgedChildSignalListLinks.md
 docs/PaginatedAbridgedChildSignalListLinksNext.md
 docs/PaginatedAbridgedChildSignalListLinksPrevious.md
 docs/PaginatedAbridgedChildSignalListLinksSelf.md
 docs/PaginatedAreaList.md
+docs/PaginatedAreaTypeList.md
 docs/PaginatedCategoryList.md
 docs/PaginatedExpressionList.md
 docs/PaginatedPermissionList.md
@@ -199,8 +202,9 @@ signals_api_client/models/__init__.py
 signals_api_client/models/abridged_child_signal.py
 signals_api_client/models/active_terms_facet.py
 signals_api_client/models/area.py
+signals_api_client/models/area_create.py
+signals_api_client/models/area_create_geometry.py
 signals_api_client/models/area_geo.py
-signals_api_client/models/area_geo_geometry.py
 signals_api_client/models/area_geo_properties.py
 signals_api_client/models/area_type.py
 signals_api_client/models/blank_enum.py
@@ -277,6 +281,7 @@ signals_api_client/models/paginated_abridged_child_signal_list_links_next.py
 signals_api_client/models/paginated_abridged_child_signal_list_links_previous.py
 signals_api_client/models/paginated_abridged_child_signal_list_links_self.py
 signals_api_client/models/paginated_area_list.py
+signals_api_client/models/paginated_area_type_list.py
 signals_api_client/models/paginated_category_list.py
 signals_api_client/models/paginated_expression_list.py
 signals_api_client/models/paginated_permission_list.py
@@ -382,8 +387,9 @@ test/__init__.py
 test/test_abridged_child_signal.py
 test/test_active_terms_facet.py
 test/test_area.py
+test/test_area_create.py
+test/test_area_create_geometry.py
 test/test_area_geo.py
-test/test_area_geo_geometry.py
 test/test_area_geo_properties.py
 test/test_area_type.py
 test/test_blank_enum.py
@@ -460,6 +466,7 @@ test/test_paginated_abridged_child_signal_list_links_next.py
 test/test_paginated_abridged_child_signal_list_links_previous.py
 test/test_paginated_abridged_child_signal_list_links_self.py
 test/test_paginated_area_list.py
+test/test_paginated_area_type_list.py
 test/test_paginated_category_list.py
 test/test_paginated_expression_list.py
 test/test_paginated_permission_list.py

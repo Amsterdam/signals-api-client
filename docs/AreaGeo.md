@@ -6,7 +6,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **type** | [**GisFeatureEnum**](GisFeatureEnum.md) |  | [optional] 
-**geometry** | [**AreaGeoGeometry**](AreaGeoGeometry.md) |  | [optional] 
+**geometry** | [**AreaCreateGeometry**](AreaCreateGeometry.md) |  | [optional] 
 **properties** | [**AreaGeoProperties**](AreaGeoProperties.md) |  | [optional] 
 
 ## Example
