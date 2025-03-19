@@ -27,7 +27,7 @@ class AreaType(BaseModel):
     """
     AreaType
     """ # noqa: E501
-    id: StrictInt
+    id: Optional[StrictInt]
     name: Annotated[str, Field(strict=True, max_length=255)]
     code: Annotated[str, Field(strict=True, max_length=255)]
     __properties: ClassVar[List[str]] = ["id", "name", "code"]
