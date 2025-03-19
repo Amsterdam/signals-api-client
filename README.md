@@ -282,7 +282,6 @@ Class | Method | HTTP request | Description
  - [NestedStatusModelState](docs/NestedStatusModelState.md)
  - [NestedStatusModelTargetApi](docs/NestedStatusModelTargetApi.md)
  - [NestedTypeModel](docs/NestedTypeModel.md)
- - [NullEnum](docs/NullEnum.md)
  - [PaginatedAbridgedChildSignalList](docs/PaginatedAbridgedChildSignalList.md)
  - [PaginatedAbridgedChildSignalListLinks](docs/PaginatedAbridgedChildSignalListLinks.md)
  - [PaginatedAbridgedChildSignalListLinksNext](docs/PaginatedAbridgedChildSignalListLinksNext.md)
